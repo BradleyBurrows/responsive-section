@@ -23,12 +23,20 @@ section {
   width: 100%;
 }
 
+.section-letter {
+  max-width: 140px;
+}
+
+.section-icon {
+  max-width: 140px;
+}
+
 .wrapper {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  max-width: 60em;
-  margin: auto;
+  max-width: 45em;
+  margin: 0 auto;
 }
 
 body {
@@ -40,7 +48,8 @@ body {
 }
 
 .img-flex {
-  width: 140px;
+  display: block;
+  width: 100%;
   height: 140px;
   float: left;
   order: inherit;
